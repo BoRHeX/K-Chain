@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KnowledgeChain</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>KnowledgeChain</h1>
+    <div>
+        <h2>Register</h2>
+        <input type="text" id="registerUser" placeholder="Username">
+        <button onclick="register()">Register</button>
+    </div>
+    <div>
+        <h2>Submit Knowledge</h2>
+        <input type="text" id="knowledgeUser" placeholder="Username">
+        <textarea id="knowledgeText" placeholder="Knowledge"></textarea>
+        <input type="text" id="knowledgeProof" placeholder="Proof">
+        <button onclick="submitKnowledge()">Submit</button>
+    </div>
+    <div>
+        <h2>View Balance</h2>
+        <input type="text" id="balanceUser" placeholder="Username">
+        <button onclick="viewBalance()">View Balance</button>
+        <p id="balanceResult"></p>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
